@@ -5,8 +5,8 @@
   version="2.5"
   id="site">
 
-  <display-name>My Hippo Project site</display-name>
-  <description>My Hippo Project site</description>
+  <display-name>${DESCRIPTION} site</display-name>
+  <description>${DESCRIPTION} site</description>
 
   <jsp-config>
     <jsp-property-group>

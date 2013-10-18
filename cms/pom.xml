@@ -4,13 +4,13 @@
 
   <parent>
     <groupId>${GROUP_ID}</groupId>
-    <artifactId>myhippoproject</artifactId>
+    <artifactId>${ARTIFACT_ID}</artifactId>
     <version>1.01.00-SNAPSHOT</version>
   </parent>
 
-  <name>My Hippo Project CMS</name>
-  <description>My Hippo Project CMS</description>
-  <artifactId>myhippoproject-cms</artifactId>
+  <name>${DESCRIPTION} CMS</name>
+  <description>${DESCRIPTION} CMS</description>
+  <artifactId>${ARTIFACT_ID}-cms</artifactId>
   <packaging>war</packaging>
 
   <dependencies>
@@ -44,13 +44,13 @@
 
     <dependency>
       <groupId>${GROUP_ID}</groupId>
-      <artifactId>myhippoproject-bootstrap-configuration</artifactId>
+      <artifactId>${ARTIFACT_ID}-bootstrap-configuration</artifactId>
       <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>${GROUP_ID}</groupId>
-      <artifactId>myhippoproject-bootstrap-content</artifactId>
+      <artifactId>${ARTIFACT_ID}-bootstrap-content</artifactId>
       <version>${project.version}</version>
     </dependency>
 

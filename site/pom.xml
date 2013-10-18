@@ -4,13 +4,13 @@
 
   <parent>
     <groupId>${GROUP_ID}</groupId>
-    <artifactId>myhippoproject</artifactId>
+    <artifactId>${ARTIFACT_ID}</artifactId>
     <version>1.01.00-SNAPSHOT</version>
   </parent>
 
-  <name>My Hippo Project Site</name>
-  <description>My Hippo Project Site</description>
-  <artifactId>myhippoproject-site</artifactId>
+  <name>${DESCRIPTION} Site</name>
+  <description>${DESCRIPTION} Site</description>
+  <artifactId>${ARTIFACT_ID}-site</artifactId>
   <packaging>war</packaging>
 
   <dependencies>

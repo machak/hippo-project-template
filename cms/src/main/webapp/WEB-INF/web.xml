@@ -6,8 +6,8 @@
     id="cms">
 
   <!-- General configuration -->
-  <display-name>My Hippo Project CMS</display-name>
-  <description>My Hippo Project CMS</description>
+  <display-name>${DESCRIPTION} CMS</display-name>
+  <description>${DESCRIPTION} CMS</description>
 
   <context-param>
     <description>The address of the repository</description>

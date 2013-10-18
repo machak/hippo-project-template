@@ -9,9 +9,9 @@
   </parent>
 
   <name>My Hippo Project</name>
-  <description>My Hippo Project</description>
+  <description>${DESCRIPTION}</description>
   <groupId>${GROUP_ID}</groupId>
-  <artifactId>myhippoproject</artifactId>
+  <artifactId>${ARTIFACT_ID}</artifactId>
   <version>1.01.00-SNAPSHOT</version>
   <packaging>pom</packaging>
 

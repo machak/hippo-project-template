@@ -4,13 +4,13 @@
 
   <parent>
     <groupId>${GROUP_ID}</groupId>
-    <artifactId>myhippoproject-bootstrap</artifactId>
+    <artifactId>${ARTIFACT_ID}-bootstrap</artifactId>
     <version>1.01.00-SNAPSHOT</version>
   </parent>
 
-  <name>My Hippo Project Bootstrap Content</name>
-  <description>My Hippo Project Bootstrap Content</description>
-  <artifactId>myhippoproject-bootstrap-content</artifactId>
+  <name>${DESCRIPTION} Bootstrap Content</name>
+  <description>${DESCRIPTION} Bootstrap Content</description>
+  <artifactId>${ARTIFACT_ID}-bootstrap-content</artifactId>
 
   <build>
     <defaultGoal>install</defaultGoal>
