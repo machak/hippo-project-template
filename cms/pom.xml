@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.example</groupId>
+    <groupId>${GROUP_ID}</groupId>
     <artifactId>myhippoproject</artifactId>
     <version>1.01.00-SNAPSHOT</version>
   </parent>
@@ -43,13 +43,13 @@
     </dependency>
 
     <dependency>
-      <groupId>org.example</groupId>
+      <groupId>${GROUP_ID}</groupId>
       <artifactId>myhippoproject-bootstrap-configuration</artifactId>
       <version>${project.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>org.example</groupId>
+      <groupId>${GROUP_ID}</groupId>
       <artifactId>myhippoproject-bootstrap-content</artifactId>
       <version>${project.version}</version>
     </dependency>
